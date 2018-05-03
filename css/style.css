@@ -1,0 +1,50 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family:johny;
+  src:url("../fonts/Brisk-Pro.otf");
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  background: url('../img/john.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  color: #33414e;
+  font-family: johny;
+  font-size: 40px;
+}
+
+.sub-title{
+  font-family: sans-serif;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.info {
+  text-align: center;
+  height: 100vh;
+  /* background-color: red; */
+  padding: 0px 25px;
+}
+.info p {
+  width: 55vw;
+  font-size: 2em;
+}
